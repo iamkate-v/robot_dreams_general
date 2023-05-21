@@ -6,5 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 6</title>
   </head>
-  <body></body>
+  <body>
+    <h1>Offer a job</h1>
+    <table border="1">
+      <caption>
+        Contact information
+      </caption>
+      <tr>
+        <th>Phone</th>
+        <td>+380990888888</td>
+      </tr>
+      <tr>
+        <th>Address</th>
+        <td>Kyiv</td>
+      </tr>
+    </table>
+    <form action="">
+      <fieldset>
+        <legend>Contact form</legend>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required /><br />
+        <label for="description">Description</label> <br />
+        <textarea name="description" id="description" cols="30" rows="10">
+        </textarea>
+        <br />
+        <label for="work-type">Work type:</label>
+        <select name="work-type" id="work-type">
+          <option value="full-time">Full-time</option>
+          <option value="part-time">Part-time</option>
+          <option value="internship">Internship</option>
+          <option value="project">Project</option>
+        </select>
+        <br />
+        <input type="submit" value="Hire me" name="hire-me" />
+      </fieldset>
+    </form>
+  </body>
 </html>
