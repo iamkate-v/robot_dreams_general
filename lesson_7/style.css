@@ -1,0 +1,26 @@
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-style: italic;
+}
+h2 {
+  font-weight: bold;
+}
+th {
+  text-transform: uppercase;
+}
+a {
+  color: #00f;
+}
+a:visited {
+  text-decoration: underline;
+  color: #005;
+}
+a:hover {
+  text-decoration: none;
+}
+li {
+  list-style-type: square;
+}
