@@ -1,0 +1,16 @@
+h1,
+h2,
+h3 {
+  border-bottom: 1px, solid, red;
+}
+
+img {
+  padding: 10px;
+  border: 2px, solid, red;
+}
+th {
+  background-color: blue;
+}
+td {
+  background-color: aqua;
+}
